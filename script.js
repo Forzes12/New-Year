@@ -15,6 +15,7 @@ const regions = [
     { offset: 5, name: 'Уфа' },
     { offset: 4, name: 'Самара' },
     { offset: 4, name: 'Саратов' },
+    { offset: 4, name: 'Астрахань' },
     { offset: 3, name: 'Москва' },
     { offset: 3, name: 'Санкт-Петербург' },
     { offset: 3, name: 'Краснодар' },
