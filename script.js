@@ -168,7 +168,6 @@ function switchRegion(newIndex) {
     const timerContainer = document.getElementById('timer-container');
     const regionName = document.getElementById('region-name');
     timerContainer.classList.add('fade');
-    regionName.classList.add('fade');
     setTimeout(() => {
         currentRegionIndex = newIndex;
         targetDate = getTargetDate(regions[currentRegionIndex].offset);
@@ -176,7 +175,6 @@ function switchRegion(newIndex) {
         updateCountdown(); // Update immediately
         updateAllRegions();
         timerContainer.classList.remove('fade');
-        regionName.classList.remove('fade');
     }, 500);
 }
 
