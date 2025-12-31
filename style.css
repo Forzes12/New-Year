@@ -26,6 +26,68 @@ h1 {
     text-shadow: 0 0 20px gold, 0 0 40px gold, 0 0 60px gold;
 }
 
+.region-name {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px gold;
+    transition: opacity 0.5s ease;
+}
+
+.region-name.fade {
+    opacity: 0;
+}
+
+.all-regions {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.all-regions h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px gold;
+}
+
+#regions-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.region-item {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid gold;
+    border-radius: 5px;
+    padding: 0.5rem;
+    min-width: 150px;
+    text-align: center;
+}
+
+.region-item.active {
+    border-color: red;
+    box-shadow: 0 0 10px red;
+}
+
+.region-item .region-title {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0 5px silver;
+}
+
+.region-item .region-timer {
+    font-size: 0.8rem;
+    color: gold;
+}
+
+#timer-container {
+    transition: opacity 0.5s ease;
+}
+
+#timer-container.fade {
+    opacity: 0;
+}
+
 .timer {
     display: flex;
     justify-content: center;
